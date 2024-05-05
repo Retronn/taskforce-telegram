@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body class="text-bg-light">
-    <div class="container p-0 mt-5">
+    <div class="container p-0 mt-5 ">
 
         <div class="col m-0 p-0"> 
 
@@ -20,18 +20,32 @@
 
         <div class="row mt-5 px-5">
             <form id="input-form">
-                <div class="container mb-3 p-0">
+                <div class="container mb-3 " style="height: 2.5rem;">
 
-                    <div class="row row-cols-auto align-items-center"> 
+                    <div class="row h-100 "> 
 
-                        <div class="col">
-                            <div id="indicator" class="text-bg-success rounded-circle" style="width: 10px; height: 10px;"> </div>
+                        <div class="col-auto h-100 container d-flex" >
+                            <div id="indicator" class="text-bg-success rounded-circle row justify-content-center align-self-center" style="width: 10px; height: 10px;"> </div>
                         </div>
 
-                        <div class="col p-0">
-                            <div id="counter" class="text-body-secondary"> 1024 </div>
+                        <div class="col-auto h-100 text-start px-0 container d-flex">
+
+                                    <div id="counter" class="text-body-secondary p-0 m-0 row justify-content-center align-self-center"> 1024</div>
+
                         </div>
-                    
+
+                        <div class="col h-100 px-0 text-end">
+
+
+                                <div class="btn-group h-100 m-0" role="group" aria-label="Basic radio toggle button group">
+                                    <input  type="radio" class="btn-check m-0 " name="btnradio" id="button-limit-one" autocomplete="off" checked>
+                                    <label class="btn btn-outline-primary m-0 px-4" for="button-limit-one">1024</label>
+                                
+                                    <input type="radio" class="btn-check m-0" name="btnradio" id="button-limit-two" autocomplete="off">
+                                    <label class="btn btn-outline-primary m-0 px-4" for="button-limit-two">4096</label>
+                                </div>
+                        </div>
+
                     </div>
                     
                 </div>
@@ -42,16 +56,7 @@
             </form>
         </div>
 
-        <div class="row mt-5 px-5">
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input  type="radio" class="btn-check" name="btnradio" id="button-limit-one" autocomplete="off" checked>
-            <label class="btn btn-outline-primary" for="button-limit-one">1024 символа</label>
-          
-            <input type="radio" class="btn-check" name="btnradio" id="button-limit-two" autocomplete="off">
-            <label class="btn btn-outline-primary" for="button-limit-two">4096 символа</label>
-          
-          </div>
-        </div>
+
         
         </div>
     </div>
