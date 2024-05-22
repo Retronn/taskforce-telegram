@@ -1,27 +1,27 @@
 
-var memberOne = new CreateTaskForceMember("Ткачёв Александр [Curator]", "@Retronn", "Шымкент", 10 + 11 + 32 + 10);
+var memberOne = new CreateTaskForceMember("Бекарыс Сымбат", "@simationere", "Шымкент", 120);
 
-var memberTwo = new CreateTaskForceMember("Нагай София", "@orionnsi", "Тараз", 0);
+var memberTwo = new CreateTaskForceMember("Нагай София", "@orionnsi", "Тараз", 250);
 
-var memberThree = new CreateTaskForceMember("Нармаханбет Әбілқайыр", "@Abilkair1", "Шымкент", 69);
+var memberThree = new CreateTaskForceMember("Нармаханбет Әбілқайыр", "@Abilkair1", "Шымкент", 69 + 120 + 15);
 
-var memberFour = new CreateTaskForceMember("Мамыр Аделя", "@a_adelm_m", "Шымкент", 21);
+var memberFour = new CreateTaskForceMember("Мамыр Аделя", "@a_adelm_m", "Шымкент", 21 +25 +25 + 200);
 
-var memberFive = new CreateTaskForceMember("Сайдиганиев Искандар", "@Skalex0", "Шымкент", 21);
+var memberFive = new CreateTaskForceMember("Сайдиганиев Искандар", "@Skalex0", "Шымкент", 21+ 120 );
 
-var memberSix = new CreateTaskForceMember("Амантай Еркежан", "@irliastcaa", "Шымкент", 100);
+var memberSix = new CreateTaskForceMember("Амантай Еркежан", "@irliastcaa", "Шымкент", 100 + 160 + 160 + 100);
 
-var memberSeven = new CreateTaskForceMember("Елубаев Бекзат", "@CT5557", "Жезқазған", 0);
+var memberSeven = new CreateTaskForceMember("Елубаев Бекзат", "@CT5557", "Жезқазған", 75);
 
-var memberEight = new CreateTaskForceMember("Қуанар Кәусар", "@nncmellie", "Кызылорда", 0);
+var memberEight = new CreateTaskForceMember("Қуанар Кәусар", "@nncmellie", "Кызылорда", 120);
 
 var memberNine = new CreateTaskForceMember("Мырза Асель", "@asymeta", "Кызылорда", 0);
 
-var memberTen = new CreateTaskForceMember("Нурлыбеков Бекнур", "@wnbkj", "Кызылорда", 0);
+var memberTen = new CreateTaskForceMember("Нурлыбеков Бекнур", "@wnbkj", "Кызылорда", 15*3);
 
-var memberEleven = new CreateTaskForceMember("Каримова Айша", "@kozel_az", "Астана", 0);
+var memberEleven = new CreateTaskForceMember("Каримова Айша", "@kozel_az", "Астана", 200);
 
-var memberTwelve = new CreateTaskForceMember("Аскар Альжан", "@alzhik03", "Шымкент", 0);
+var memberTwelve = new CreateTaskForceMember("Аскар Альжан", "@alzhik03", "Шымкент", 75);
 
 
 
