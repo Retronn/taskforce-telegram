@@ -15,7 +15,7 @@ var memberSeven = new CreateTaskForceMember("Елубаев Бекзат", "@CT5
 
 var memberEight = new CreateTaskForceMember("Қуанар Кәусар", "@nncmellie", "Кызылорда", 120);
 
-var memberNine = new CreateTaskForceMember("Мырза Асель", "@asymeta", "Кызылорда", 0);
+var memberNine = new CreateTaskForceMember("Мырза Асель", "@asymeta", "Кызылорда", 45);
 
 var memberTen = new CreateTaskForceMember("Нурлыбеков Бекнур", "@wnbkj", "Кызылорда", 15*3);
 
