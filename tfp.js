@@ -1,5 +1,5 @@
 
-var memberOne = new CreateTaskForceMember("Бекарыс Сымбат", "@simationere", "Шымкент", 120);
+var memberOne = new CreateTaskForceMember("Абылкарыс Сымбат", "@simationere", "Шымкент", 120);
 
 var memberTwo = new CreateTaskForceMember("Нагай София", "@orionnsi", "Тараз", 250);
 
